@@ -232,6 +232,10 @@ public class IOSDriver {
     public void performTouchAction(TouchActions touchActions) throws SonicRespException {
     	wdaClient.performTouchAction(touchActions);
     }
+    
+    public void performW3CTouchAction(final TouchActions touchActions) throws SonicRespException {
+    	this.wdaClient.performW3CTouchAction(touchActions);
+    } // end performW3CTouchAction()
 
     /**
      * press system button.

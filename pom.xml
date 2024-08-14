@@ -101,7 +101,12 @@
             <version>4.6.1</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-api</artifactId>
+		    <version>4.22.0</version>
+		</dependency>
+		
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <dependency>
             <groupId>org.jsoup</groupId>
